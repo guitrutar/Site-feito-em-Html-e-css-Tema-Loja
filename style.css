@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+
+  background-color: rgb(102, 102, 102);
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+
+/* Header */
+
+header {
+  padding: 25px;
+  background-color: #222;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav{
+  display: flex;
+  align-items: center;
+}
+
+header nav a {
+  font-size: 1.2em;
+  margin-right: 1.5em;
+}
+
+header .h1loja {
+  font-size: 1.8em;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+header a:hover, .h1loja:hover {
+  color: aqua;
+}
+
+.home {
+  font-size: 2.1em;
+  padding: 5%;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(102, 102, 102);
+  text-align: center;
+  position: relative;
+  top: 150px;
+}
+
+.home .botaohome{
+  padding: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: rgb(59, 59, 59);
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 18px;
+  position: relative;
+  top: 10px;
+  cursor: pointer;
+}
+
+.segunda-main {
+  background-color: rgb(74, 74, 74);
+  position: relative;
+  top: 270px;
+}
+
+.segunda-main .text2 .h1produtos {
+  position: relative;
+  top: 10px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.segunda-main .produto {
+  position: relative;
+  left: 210px;
+  top: 20px;
+}
+
+.segunda-main .tenis1c {
+  position: relative;
+  top: -150px;
+  left: 259.5px;
+  padding: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 04px;
+  border: none;
+  color: rgb(255, 255, 255);
+  background: -webkit-linear-gradient(#6A7455, #6d5f39);
+  box-shadow: 1px 2px 5px rgb(156, 156, 156);
+  cursor: pointer;
+}
+
+.segunda-main .tenis2c {
+  position: relative;
+  top: -150px;
+  left: 315px;
+  padding: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 04px;
+  border: none;
+  color: rgb(95, 95, 95);
+  background: -webkit-linear-gradient(#E8E7EA, #CAC9CE);
+  box-shadow: 1px 2px 5px rgb(156, 156, 156);
+  cursor: pointer;
+}
+
+.segunda-main .tenis3c {
+  position: relative;
+  top: -150px;
+  left: 373px;
+  padding: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 04px;
+  border: none;
+  color: rgb(255, 255, 255);
+  background: -webkit-linear-gradient(#B49993, #3C3846);
+  box-shadow: 1px 2px 5px rgb(156, 156, 156);
+  cursor: pointer;
+}
+
+.segunda-main .tenis4c {
+  position: relative;
+  top: -150px;
+  left: 428px;
+  padding: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 04px;
+  border: none;
+  color: rgb(255, 255, 255);
+  background: -webkit-linear-gradient(#F660A6, #AF34A0);
+  box-shadow: 1px 2px 5px rgb(156, 156, 156);
+  cursor: pointer;
+}
+
+.segunda-main .tenis5c {
+  position: relative;
+  top: -150px;
+  left: 487px;
+  padding: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 04px;
+  border: none;
+  color: rgb(255, 255, 255);
+  background: -webkit-linear-gradient(#F0B002, #FE3A75);
+  box-shadow: 1px 2px 5px rgb(156, 156, 156);
+  cursor: pointer;
+}
+/* Footer */
+
+
+footer {
+  background-color: #222;
+  position: relative;
+  top: 270px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
